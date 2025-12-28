@@ -1,0 +1,57 @@
+/* tiny: only the radial background; everything else handled by Tailwind classes */
+.body1 {
+  background: radial-gradient(circle, #32A6EE 0%, #45A9E8 50%, #0a56a2 100%);
+}
+.body2{
+  background: radial-gradient(circle, rgb(252,252,252) 0%, rgb(232,69,172) 50%, rgb(122,2,102) 100%);
+
+}
+.body3{
+  background: radial-gradient(circle,rgb(252, 252, 252) 0%, rgb(86, 58, 143) 50%, rgb(70, 4, 112) 100%);
+}
+.body4 {
+  background: radial-gradient(circle, rgb(252,252,252) 0%, rgb(59, 92, 201) 50%, rgb(29, 2, 110) 100%);
+}
+.body5{
+  background: radial-gradient(circle, rgb(252,252,252) 0%, rgb(232,69,172) 50%, rgb(122,2,102) 100%);
+}
+.body6{
+  background: radial-gradient(circle,rgb(252, 252, 252) 0%, rgb(128, 89, 206) 50%, rgb(70, 4, 112) 100%);
+}
+nav{
+  background-color: white;
+padding: 1rem;
+width: 100%;
+}
+nav ul{
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+
+nav ul li a{
+padding: .3rem;
+margin: .2rem;
+font-size: 50%;
+  color: black;
+
+  border-radius: 1rem;
+
+}
+nav ul li a:hover{
+  background-color: #32A6EE;
+  
+}
+@media (min-width:800px) {
+  nav ul li a{
+ padding: .5rem;
+ font-size: 75%;
+  }
+}
+@media (min-width:1000px) {
+  nav ul li a{
+ padding: .5rem;
+ font-size: 100%;
+  }
+}
